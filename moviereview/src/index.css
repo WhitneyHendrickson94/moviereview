@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.starrating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on{
+  color: #f0ad4e;
+}
+
+.off{
+  color: #adb5bd;
+}
+
+
+#MovieList{
+  display: grid;
+
+}
+
+#ReviewForm{
+  margin: 4px;
+
 }
